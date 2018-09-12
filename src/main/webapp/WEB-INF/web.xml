@@ -16,6 +16,12 @@
   	<description></description>
   	<servlet-class>fr.dtaIng.deuxiemeTest</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>clientServlet</servlet-name>
+  	<display-name>clientServlet</display-name>
+  	<description></description>
+  	<servlet-class>fr.dtaIng.clientServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>ServletTest</servlet-name>
   	<url-pattern>/ServletTest</url-pattern>
@@ -23,5 +29,9 @@
   <servlet-mapping>
   	<servlet-name>deuxiemeTest</servlet-name>
   	<url-pattern>/deuxiemeTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>clientServlet</servlet-name>
+  	<url-pattern>/clientServlet</url-pattern>
   </servlet-mapping>
 </web-app>
